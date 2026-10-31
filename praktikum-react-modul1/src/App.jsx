@@ -25,28 +25,28 @@ function App() {
       judul: "Aplikasi Daftar Tugas",
       deskripsi: "Aplikasi untuk mencatat dan memantau tugas harian dengan tampilan sederhana.",
       teknologi: ["React", "JavaScript", "CSS"],
-      repoUrl: "https://github.com/username/daftar-tugas",
+      repoUrl: "https://github.com/AndhikaAshari/daftar-tugas",
     },
     {
       id: 2,
       judul: "Website Profil Kampus",
       deskripsi: "Halaman statis berisi informasi program studi, fasilitas, dan kontak kampus.",
       teknologi: ["HTML", "CSS", "Bootstrap"],
-      repoUrl: "https://github.com/username/profil-kampus",
+      repoUrl: "https://github.com/AndhikaAshari/profil-kampus",
     },
     {
       id: 3,
       judul: "Katalog Buku Perpustakaan",
       deskripsi: "Sistem pencarian dan pengelolaan katalog buku dengan basis data relasional.",
       teknologi: ["Laravel", "PostgreSQL", "PHP"],
-      repoUrl: "https://github.com/username/katalog-buku",
+      repoUrl: "https://github.com/AndhikaAshari/katalog-buku",
     },
     {
       id: 4,
       judul: "Kalkulator Keuangan Mini",
       deskripsi: "Alat hitung sederhana untuk mencatat pemasukan dan pengeluaran bulanan.",
       teknologi: ["React", "Vite"],
-      repoUrl: "https://github.com/username/kalkulator-keuangan",
+      repoUrl: "https://github.com/AndhikaAshari/kalkulator-keuangan",
     },
   ];
 
