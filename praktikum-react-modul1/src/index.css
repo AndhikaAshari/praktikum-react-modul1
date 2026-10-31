@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #1d1d1f;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background:
+    radial-gradient(circle at 15% 10%, #7cc4ff 0, transparent 40%), radial-gradient(circle at 85% 20%, #ffb3d9 0, transparent 40%), radial-gradient(circle at 70% 85%, #b9a6ff 0, transparent 45%),
+    radial-gradient(circle at 10% 90%, #9bf0d0 0, transparent 40%), #eef2fb;
+  background-attachment: fixed;
+}
+
+/* Efek Liquid Glass */
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.25));
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    0 8px 32px rgba(31, 38, 135, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.glass-hover {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.glass-hover:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 14px 40px rgba(31, 38, 135, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Tombol gaya Apple */
+.tombol-apple {
+  display: inline-block;
+  background: #007aff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow:
+    0 4px 14px rgba(0, 122, 255, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.tombol-apple:hover {
+  background: #0a84ff;
+  transform: scale(1.03);
+}
+
+.tombol-apple:active {
+  transform: scale(0.97);
+}
